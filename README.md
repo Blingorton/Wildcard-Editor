@@ -10,7 +10,7 @@ Starting at the top, there's the obligatory new, open, save and save as buttons,
 
 Next theres the browse forwards and back buttons, which work the same way as an internet browser, going forwards and backwards between which wildcards you've viewed, so you can double click a __wildcard__, make your changes, then go back to the wildcard that called it and continue from there. the mouse thumb buttons also control this feature.
 
-Undo and redo are where most of the bugs have come from, so be careful with those.
+Undo and redo.
 
 The clone lines button (or Ctrl+D) lets will copy and instantly paste a highlighted line, meant to be used to weigh probabilities for a line to be called.
 
@@ -27,3 +27,5 @@ Text wrap, hotkeys, settings and the tabs toggle are all pretty basic, but the r
 Underneath the document viewer is the wildcards in doc window, which lists out all wildcards present in the currently open document. double clicking any of these in this window will open that wildcard. It also features an open all button, as well as a search use button, which opens a popup that will list out all wildcards in the wildcard folder that call the currently open document.
 
 Lastly in the bottom right corner there's a wrapper confirmation and a spell check toggle. Overall I find this tool incredibly useful, but it definitely is the buggiest out of the lot.
+
+UPDATE: Changed the core of the text editing section to a MUCH more reliable scintilla base.
